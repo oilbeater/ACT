@@ -1,5 +1,6 @@
-Please write your name and UTEID in this file.
-Name: ’≈·À
-UTEID: 1101213961
-Name: ¡ı√Œ‹∞
-UTEID: 1101213932
+The goal of this assignment is to build Static Single Assignment (SSA) form, and perform optimizations on SSA. This assignment has the following components:
+
+Build Static Single Assignment (SSA) form. (25%)
+Perform SSA based constant propagation. (30%)
+Perform SSA based loop invariant code motion. (30%)
+Translate SSA back to non-SSA 3-address code. (15%)

@@ -1,5 +1,5 @@
-Please write your name and UTEID in this file.
-Name: ’≈·À
-UTEID: 1101213961
-Name: ¡ı√Œ‹∞
-UTEID: 1101213932
+The goal of this assignment is to develop an optimizer that performs dataflow analysis and scalar optimizations. This assignment has the following components:
+Construct the Control Flow Graph (CFG). (5%)
+Perform Strongly Connected Region (SCR) analysis. (5%)
+Perform reaching definitions (20%) and use it to perform simple constant propagation. (25%)
+Perform live variable analysis (20%) and use it to perform dead statement elimination. (25%)
