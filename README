@@ -1,0 +1,27 @@
+The code is about the assignments of Advance Compiler Techniques of Utexas University.
+The assignments homepage is http://www.cs.utexas.edu/users/mckinley/380C/labs/labs.html
+
+Lab1 Translation
+
+The goal of this project is to write a translator from 3-address format to C. The purpose of this assignment is to
+Make you familiar with compiler intermediate formats, in this particular case, our 3-address format.
+Write a translator and test its correctness. You will also use this translator to test code transformations in future assignments. (This project is often the same one compiler writers will undertake when starting a new compiler, because it eases testing, assuming a correct C compiler.)
+Write example C code to test your translator.
+
+Lab2 Dataflow and optimizations
+The goal of this assignment is to develop an optimizer that performs dataflow analysis and scalar optimizations. This assignment has the following components:
+Construct the Control Flow Graph (CFG). (5%)
+Perform Strongly Connected Region (SCR) analysis. (5%)
+Perform reaching definitions (20%) and use it to perform simple constant propagation. (25%)
+Perform live variable analysis (20%) and use it to perform dead statement elimination. (25%)
+Extra credit: perform constant propagation with the Wegman & Zadeck algorithm. (+15%)
+
+Lab3 SSA and optimizations
+
+The goal of this assignment is to build Static Single Assignment (SSA) form, and perform optimizations on SSA. This assignment has the following components:
+
+Build Static Single Assignment (SSA) form. (25%)
+Perform SSA based constant propagation. (30%)
+Perform SSA based loop invariant code motion. (30%)
+Translate SSA back to non-SSA 3-address code. (15%)
+Extra Credits: Perform global common subexpression elimination. (15%)

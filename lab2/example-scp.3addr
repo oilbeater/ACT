@@ -1,0 +1,24 @@
+    instr 1: nop
+    instr 2: entrypc
+    instr 3: enter 48
+    instr 4: move 100 n#-16
+    instr 5: move 0 s#-24
+    instr 6: move 4 a#-32
+    instr 7: move 0 i#-40
+    instr 8: move 1 k#-48
+    instr 9: cmpeq k#-48 0
+    instr 10: blbc (9) [13]
+    instr 11: move 1 b#-8
+    instr 12: br [14]
+    instr 13: move 2 b#-8
+    instr 14: cmplt i#-40 n#-16
+    instr 15: blbc (14) [22]
+    instr 16: mul a#-32 b#-8
+    instr 17: add s#-24 (16)
+    instr 18: move (17) s#-24
+    instr 19: add i#-40 1
+    instr 20: move (19) i#-40
+    instr 21: br [14]
+    instr 22: write s#-24
+    instr 23: ret 0
+    instr 24: nop
